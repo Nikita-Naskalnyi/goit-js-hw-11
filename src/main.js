@@ -1,6 +1,6 @@
 import iziToast from 'izitoast';
-import { getPhoto } from './js/pixabay';
-import { createGalleryMarkup, createLightBox } from './js/render-function';
+import { getPhoto } from './js/pixabay-api';
+import { createGalleryMarkup, createLightBox } from './js/render-functions';
 
 const refs = {
   form: document.querySelector('.form'),
